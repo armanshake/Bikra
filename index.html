@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brika</title>
+    <!-- bootstrapcss link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- iCon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.png" alt="logo">
+                    <span class="logo-name mb-0">Brika
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active myactive" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <button class="btn"><i class='bx bxs-user iCon-sz'></i></button>
+                    <button class="btn"><i class='bx bxs-cart-alt iCon-sz'></i></button>
+                </div>
+            </div>
+        </nav>
+        <section class="container mt-4 slider-back">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner p-4">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 p-4">
+                                <h1 class="h1-tag" data-aos="fade-right">Men's & Boy's Fashion</h1>
+                                <hr class="textline">
+                                <h5 class="text-light mt-4" data-aos="fade-right">Upgrade your style game with our
+                                    trendy
+                                    and affordable men's and
+                                    boys' <br><span id="example" class="text-warning"></span></h5>
+                                <button class="btn btn-danger mt-3">Shop Now</button>
+                            </div>
+                            <div class="col-12 col-lg-6 "><img src="./img/boy fashion slider.png" width="300px"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <h1 class="h1-tag">Women's & Girls' Fashion</h1>
+                                <hr class="textline">
+                                <h5 class="text-light mt-4">Discover the latest trends in women's and girls' fashion -
+                                    from
+                                    casual wear to formal attire, our collection has it all, in all sizes and styles,at
+                                    affordable prices.</h5>
+                                <button class="btn btn-danger mt-3">Shop Now</button>
+                            </div>
+                            <div class="col-12 col-lg-6"><img src="./img/girl fashion slider.png" width="300px"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <h1 class="h1-tag">Electronics Devices</h1>
+                                <hr class="textline">
+                                <h5 class="text-light mt-4">Make your life easier and more efficient with our smart
+                                    electronics devices - designed to automate and simplify your daily tasks and
+                                    routines.
+                                </h5>
+                                <button class="btn btn-danger mt-3">Shop Now</button>
+                            </div>
+                            <div class="col-6 col-lg-6"><img src="./img/computer slider.png" width="300px" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <div>
+                <div class="row  align-items-center ms-4 ms-lg-0 gap-lg-0  gap-1 justify-content-lg-between ">
+                    <div
+                        class="col-8 col-sm-5 col-lg-2 btn btn-warning animate__animated animate__heartBeat animate__slower">
+                        <h6 class="d-flex gap-lg-1 gap-3 gap-xl-3 align-items-center"><i
+                                class="fa-solid fa-truck-fast fa-fade fa-sm"></i>Free Delivery</h6>
+                    </div>
+                    <div
+                        class="col-8 col-sm-5 col-lg-2 btn btn-warning animate__animated animate__heartBeat animate__slower">
+                        <h6 class="d-flex gap-3 align-items-center"><i class="fa-solid fa-store fa-fade"></i>Mart</h6>
+                    </div>
+                    <div
+                        class="col-8 col-sm-5 col-lg-2 btn btn-warning animate__animated animate__heartBeat animate__slower">
+                        <h6 class="d-flex gap-3 align-items-center"><i class="fa-solid fa-shirt fa-fade"></i>Fashion
+                        </h6>
+                    </div>
+                    <div
+                        class="col-8 col-sm-5 col-lg-2 btn btn-warning animate__animated animate__heartBeat animate__slower">
+                        <h6 class="d-flex gap-1 align-items-center"><i class="fa-solid fa-paintbrush fa-fade"></i>Beauty
+                        </h6>
+                    </div>
+                    <div
+                        class="col-8 col-sm-5 col-lg-2 btn btn-warning animate__animated animate__heartBeat animate__slower">
+                        <h6 class="d-flex gap-2 align-items-center"><i class="fa-solid fa-house-lock fa-fade"></i>Home
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container text-bg-dark">
+            <div class=" mt-5">
+                <div class="row ">
+                    <div class="col-6 mt-2">
+                        <h4>Products</h4>
+                    </div>
+                    <div class="col-6 mt-2 d-flex justify-content-end ">
+                        <button class="btn btn-light" href="#">Show more</button>
+                    </div>
+                </div>
+                <div class="mt-2 ms-5">
+                    <div class="row gap-3 ms-lg-5 gap-lg-5 ms-md-3">
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light">
+                            <img src="./img/Laptop Notebook.png" alt="" width="180px">
+                            <p class="text-dark">ASUS Zenbook UX430</p>
+                            <del class="text-dark">$300.000</del>
+                            <h6 class="text-dark">$270.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light">
+                            <img src="./img/GPS Watch.png" alt="" width="180px">
+                            <p class="text-dark">Kieslect KR 70</p>
+                            <del class="text-dark">$70.000</del>
+                            <h6 class="text-dark">$50.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light">
+                            <img src="./img/Shoe Footwear.png" alt="" width="180px">
+                            <p class="text-dark">Shoe Footwear brown</p>
+                            <del class="text-dark">$200.000</del>
+                            <h6 class="text-dark">$150.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light mb-2">
+                            <img src="./img/LED-backlit LCD Smart TV 1080p.png" alt="" width="180px">
+                            <p class="text-dark">LED LCD Smart</p>
+                            <del class="text-dark">$500.000</del>
+                            <h6 class="text-dark">$490.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light mb-2">
+                            <img src="./img/shirt.png" alt="" width="180px">
+                            <p class="text-dark">Shirt Sleeve</p>
+                            <del class="text-dark">$100.000</del>
+                            <h6 class="text-dark">$80.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="col-8 col-sm-5 col-lg-3 bg-light mb-2">
+                            <img src="./img/Toaster Sunbeam Products Oven.png" width="180px" alt="">
+                            <p class="text-dark">Toaster Sunbeam </p>
+                            <del class="text-dark">$300.000</del>
+                            <h6 class="text-dark">$280.000</h6>
+                            <button class="btn btn-danger mb-2">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="container text-bg-light mt-3">
+                <h4>For You</h4>
+            </div>
+            <div class="container text-bg-light mt-3">
+                <div class="card-group">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card bg-secondary">
+                        <img src="./img/AirPods Headphones.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Air-Pods</h5>
+                            <p class="card-text text-light">Wireless earbuds by Apple with a sleek and modern design.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                        class="card text-bg-secondary">
+                        <img src="./img/Refrigerator, Double 1000.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Refrigerator</h5>
+                            <p class="card-text">An appliance that uses electricity to cool and preserve food.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card bg-secondary">
+                        <img src="./img/PlayStation 4 Microphone.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">PlayStation 4</h5>
+                            <p class="card-text text-light">A popular video game console developed by Sony.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                        class="card bg-secondary">
+                        <img src="./img/Printed T-shirt Polo.png" class="card-img-top" alt="...">
+                        <div class="card-body text-light">
+                            <h5 class="card-title">Polo T-Shirt</h5>
+                            <p class="card-text">Short-sleeved collared shirt made of breathable fabric, often sporty
+                                style.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card bg-secondary">
+                        <img src="./img/sunglasses with black lens.png" class="card-img-top" alt="...">
+                        <div class="card-body text-light">
+                            <h5 class="card-title">sunglasses</h5>
+                            <p class="card-text">Eyewear designed to protect eyes from bright light and UV rays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-4">
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <h1 class="fs-2 fw-bold">Brand Shope</h1>
+                <div class="card-group mt3 ">
+                    <div class="card">
+                        <img src="./img/Vivo.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card">
+                        <img src="./img/Xiaomi.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card">
+                        <img src="./img/Nestle.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card">
+                        <img src="./img/OPPO.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card">
+                        <img src="./img/OnePlus.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="mt-5 p-5 ">
+        <div class="row gap-2 gap-md-0">
+            <div class="col-10 col-md-6 d-flex justify-content-center justify-content-lg-end ms-4  ms-sm-0">
+                <img src="./animation img/119273-fastdelivery.gif" width="300px" class="animate__animated animate__bounceInLeft" alt="">
+            </div>
+            <div
+                class="col-12 col-sm-10 col-md-6 d-flex justify-content-md-center justify-content-lg-start align-items-md-center ms-md-0 ms-sm-5 bg-success ">
+                <p class="fs-1 fw-bolder lh-1 text-light animate__animated animate__bounceInUp animate__delay-1s 1s ">Fast & Safe Delivery</p>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-black">
+        <div class="container text-light">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-6 col-lg-3 mt-5 mb-5">
+                    <img src="./img/logo.png" alt="">
+                    <span class="logo-name mb-0 text-light">Brika
+                    </span>
+                    <p class="fs-6">Brika is an e-commerce website that offers unique and handmade products from
+                        independent artists and designers. Shop for home decor, accessories, and more.</p>
+                </div>
+                <div class="col-6 col-lg-4 mt-5 mb-5">
+                    <h5>Contact Us</h5>
+                    <p class="fs-6">House #8, Road # 14,<br>
+                        Dhanmondi, Dhaka-1209.</p>
+                    <p class="fs-6">Email: support@b-rika.com</p>
+                </div>
+                <div class="col-6 col-lg-3 mt-5 mb-5">
+                    <h5>Let Us Help You</h5>
+
+                    <a href="index.html" class="text-decoration-none text-light fs-6 ">Your Account</a> <br>
+                    <a href="index.html" class="text-decoration-none text-light fs-6">Your Order</a><br>
+                    <a href="index.html" class="text-decoration-none text-light fs-6">Privacy Policy</a><br>
+                    <a href="index.html" class="text-decoration-none text-light fs-6">FAQ</a>
+                </div>
+                <div class="col-6 col-lg-2 mt-5 mb-5">
+                    <h5>Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color: #005cfa;"></i></a>
+                        <a href="https://www.linkedin.com/"target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #032a6d;"></i></a>
+                        <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #fea308;"></i></a>
+                        <a href="https://x.com/"target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: #03cafc;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="container-fluid bg-dark p-4 d-flex justify-content-center align-items-center">
+        <div class=" text-white-50">
+            <p class="fs-6 fw-lighter"><i class="fa-solid fa-copyright fa-sm" style="color: #dcdcea;"></i>2023
+                B-rika.com Limited. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- <div class="position-fixed bottom-0 end-0">
+        <a href=""><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #246ef0;"></i></a>
+    </div> -->
+    </div>
+    <!-- animation link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- animation link end -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="./Text-Rotator-With-Typing-Effect-jQuery-Typer/dist/typer.min.js"></script>
+    <script>
+        $("#example").typer({
+            strings: [
+                " at affordable prices",
+                " make you stand out from the crowd.",
+                "from classic to contemporary styles"
+            ]
+        });
+    </script>
+    <!-- animation text link end -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

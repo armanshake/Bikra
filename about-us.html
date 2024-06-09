@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brika</title>
+    <!-- bootstrapcss link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- iCon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo.png" alt="logo">
+                <span class="logo-name mb-0">Brika
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active myactive" href="./about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex gap-2">
+                <button class="btn"><i class='bx bxs-user iCon-sz'></i></button>
+                <button class="btn"><i class='bx bxs-cart-alt iCon-sz'></i></button>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div>
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        Brika is an e-commerce website that offers a carefully curated selection of artisanal goods from
+                        independent makers and designers. The company was founded with the mission of supporting and
+                        celebrating the creative community, and it prides itself on providing unique, high-quality
+                        products that are ethically produced and sustainably sourced.
+
+                        The items available on Brika range from handmade jewelry and accessories to home decor and
+                        kitchenware, all crafted with a keen eye for design and a commitment to quality. Whether you're
+                        looking for a one-of-a-kind statement piece or a thoughtful gift for a loved one, Brika has
+                        something to offer.
+
+                        In addition to its online marketplace, Brika also features a blog that showcases the stories and
+                        inspirations behind its products, as well as tips and ideas for incorporating them into your
+                        life. With a focus on creativity, community, and sustainability, Brika is a destination for
+                        anyone who values unique, handmade goods and the people who make them.</p>
+                    <h4>Brika offers a wide range of items across several categories, including:</h4>
+                    <p class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        Jewelry: Handcrafted necklaces, bracelets, earrings, and rings made from a variety of materials,
+                        including precious metals, gemstones, and recycled materials. <br> <br>
+
+                        Accessories: Unique bags, scarves, hats, and other accessories that add a pop of color and
+                        personality to any outfit. <br> <br>
+
+                        Home Decor: Handmade home decor items like pillows, throws, wall art, and candles that are sure
+                        to add warmth and style to your space. <br> <br>
+
+                        Kitchenware: Unique and stylish kitchen accessories like cutting boards, mugs, and serving ware
+                        that are perfect for entertaining or adding some personality to your home. <br> <br>
+
+                        Baby and Kids: Handmade items for babies and children, including clothing, toys, and nursery
+                        decor. <br> <br>
+
+                        Beauty and Wellness: Natural beauty and wellness products, including skincare, body care, and
+                        aromatherapy items, that are made with high-quality, ethically sourced ingredients. <br> <br>
+
+                        Stationery and Office: Unique and stylish stationery items, including notebooks, pens, and desk
+                        accessories, that make even the most mundane tasks more enjoyable. <br> <br>
+
+                        Gifts: Curated gift sets and personalized gift options that are perfect for any occasion,
+                        including birthdays, weddings, and holidays. <br> <br>
+
+                        Overall, Brika's item list is diverse and offers something for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-2 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+        <form action="get">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1"  class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+    <footer class="container-fluid bg-black">
+        <div class="container text-light">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-6 col-lg-3 mt-5 mb-5">
+                    <img src="./img/logo.png" alt="">
+                    <span class="logo-name mb-0 text-light">Brika
+                    </span>
+                    <p class="fs-6">Brika is an e-commerce website that offers unique and handmade products from
+                        independent artists and designers. Shop for home decor, accessories, and more.</p>
+                </div>
+                <div class="col-6 col-lg-4 mt-5 mb-5">
+                    <h5>Contact Us</h5>
+                    <p class="fs-6">House #8, Road # 14,<br>
+                        Dhanmondi, Dhaka-1209.</p>
+                    <p class="fs-6">Email: support@b-rika.com</p>
+                </div>
+                <div class="col-6 col-lg-3 mt-5 mb-5">
+                    <h5>Let Us Help You</h5>
+
+                    <a href="./index.html" class="text-decoration-none text-light fs-6 ">Your Account</a> <br>
+                    <a href="index.html" class="text-decoration-none text-light fs-6">Your Order</a><br>
+                    <a href="index.html" class="text-decoration-none text-light fs-6">Privacy Policy</a><br>
+                    <a href="" class="text-decoration-none text-light fs-6">FAQ</a>
+                </div>
+                <div class="col-6 col-lg-2 mt-5 mb-5">
+                    <h5>Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color: #005cfa;"></i></a>
+                        <a href="https://www.linkedin.com/"target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #032a6d;"></i></a>
+                        <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #fea308;"></i></a>
+                        <a href="https://x.com/"target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: #03cafc;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="container-fluid bg-dark p-4 d-flex justify-content-center align-items-center">
+        <div class=" text-white-50">
+            <p class="fs-6 fw-lighter"><i class="fa-solid fa-copyright fa-sm" style="color: #dcdcea;"></i>2023
+                B-rika.com Limited. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

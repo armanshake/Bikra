@@ -1,0 +1,36 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-name{
+    color: #186841;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.iCon-sz{
+    font-size: 22px;
+}
+
+.myactive{
+    font-size: 1rem;
+    transform: 1s;
+    transition: all ease-in-out 1s;
+    color: white !important;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.slider-back{
+    background-color: #0f0f0ed8;
+    border-radius: 10px;
+}
+.textline{
+    color: rgb(118, 208, 90);
+    max-width: 70%;
+    margin-left: 3%;
+}
+
+.h1-tag{
+    color: #BFFE01;
+}
